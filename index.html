@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dr. Sorriso – Odontologia Especializada | Itapecerica da Serra</title>
+<meta name="description" content="Dentista em Itapecerica da Serra: implantes, próteses, botox e ortodontia. Agende sua avaliação.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Montserrat:wght@400;500;600&display=swap">
+<style>
+:root{color-scheme:light;--vin:#4a0a14;--vin2:#7a1424;--gold:#c9a24b;--bg:#ffffff;--fg:#2a0d12;--card:#fff;--mut:#6b4a50;--ln:rgba(122,20,36,.14);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;margin:0}
+html,body{overflow-x:clip;max-width:100%}body{overscroll-behavior-x:none}html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{background:var(--bg);color:var(--fg);font:400 16px/1.65 Montserrat,system-ui,sans-serif}
+h1,h2,h3,.serif{font-family:'Cormorant Garamond',Georgia,serif;font-weight:700;line-height:1.1}
+a{color:inherit;text-decoration:none}
+.nav{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:calc(10px + env(safe-area-inset-top,0px)) 18px 10px;background:linear-gradient(#fffffff2,#ffffff00);color:var(--vin)}
+.nav nav{display:none;gap:22px;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.logo{display:flex;align-items:center;gap:8px;font:italic 500 24px 'Cormorant Garamond',serif}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:99px;font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase;background:var(--vin2);color:#fff;border:1px solid var(--gold);transition:.25s}
+.btn:hover{background:var(--gold);color:var(--vin)}
+.btn.o{background:transparent;color:var(--fg);border-color:var(--vin2)}
+.nav .btn{padding:8px 16px;font-size:11px}
+#hero{height:380vh;background:radial-gradient(ellipse at 50% 42%,#fff 0,#f8ecee 55%,#edd6da 100%)}
+.stage{position:sticky;top:0;height:100vh;height:100dvh;overflow:hidden}
+#c{position:absolute;inset:0;width:100%;height:100%;touch-action:pan-y;cursor:grab}
+#ln{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+#ln line{stroke:var(--vin2);stroke-width:1}
+.lb{position:absolute;right:8px;transform:translateY(-50%);padding:5px 10px;border:1px solid #7a1424;border-radius:10px;background:#fff;box-shadow:0 6px 16px -8px #4a0a14;color:#4a0a14;font:600 10px/1.2 Montserrat,sans-serif;text-transform:uppercase;text-align:center;pointer-events:none;max-width:42vw;opacity:0}
+.ht{position:absolute;left:0;right:0;top:calc(76px + env(safe-area-inset-top,0px));text-align:center;color:var(--vin);padding:0 22px;pointer-events:none}
+.ht h1{font-size:clamp(34px,7vw,64px)}.ht h1 em{color:var(--vin2);font-style:italic}
+.ht p{margin-top:10px;font-size:12px;letter-spacing:.2em;text-transform:uppercase;opacity:.8}
+.hint{position:absolute;bottom:calc(28px + env(safe-area-inset-bottom,0px));left:0;right:0;text-align:center;color:var(--vin2);font-size:12px;letter-spacing:.14em;text-transform:uppercase;pointer-events:none}
+.hint:after{content:"";display:block;width:1px;height:34px;margin:10px auto 0;background:var(--vin2);animation:dr 1.6s infinite}
+@keyframes dr{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+section.s{padding:84px 22px;max-width:1100px;margin:auto}
+.k{color:var(--vin2);font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:600}
+h2{font-size:clamp(32px,6vw,52px);margin:10px 0 18px}
+.sub{color:var(--mut);max-width:620px}
+.rate{display:inline-flex;gap:10px;align-items:center;margin-top:22px;padding:10px 18px;border:1px solid var(--ln);border-radius:99px;background:var(--card);font-weight:600}
+.rate b{color:var(--gold);font-size:18px}
+.grid{display:grid;gap:16px;margin-top:34px;grid-template-columns:1fr}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:20px;padding:26px;display:flex;flex-direction:column;gap:10px;box-shadow:0 10px 30px -18px #4a0a14}
+.card h3{font-size:28px}.card p{color:var(--mut);font-size:14px;flex:1}
+.card .ic{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--vin);color:var(--gold);font-size:20px}
+.card a{color:var(--vin2);font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.gal{display:grid;gap:10px;grid-template-columns:1fr 1fr;margin-top:34px}
+.gal img{width:100%;height:100%;object-fit:cover;border-radius:16px;aspect-ratio:1;display:block}
+.gal img:first-child{grid-column:span 2;aspect-ratio:16/10}
+.loc{display:grid;gap:18px;margin-top:34px}
+.map{position:relative;min-height:320px;border-radius:20px;overflow:hidden;border:1px solid var(--ln);background:#f8ecee;display:grid;place-items:center;color:var(--vin);text-align:center;padding:20px}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.info{background:var(--card);border:1px solid var(--ln);border-radius:20px;padding:26px;display:grid;gap:12px;align-content:start}
+.info .r{display:flex;gap:10px;color:var(--mut);font-size:14px}.info .r b{color:var(--fg)}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+footer{background:#f8ecee;border-top:3px solid var(--vin2);color:var(--vin);text-align:center;padding:44px 22px calc(90px + env(safe-area-inset-bottom,0px));font-size:13px}
+footer .logo{justify-content:center;margin-bottom:12px}
+.wa{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;width:58px;height:58px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 8px 24px #0006}
+@media (min-width:820px){.nav nav{display:flex}.grid{grid-template-columns:repeat(4,1fr)}.gal{grid-template-columns:repeat(4,1fr)}.gal img{aspect-ratio:1}.gal img:first-child{grid-column:span 2;grid-row:span 2;aspect-ratio:auto}.loc{grid-template-columns:1.4fr 1fr}.lb{max-width:240px;font-size:11px}}
+.k{display:inline-block}
+h2:after{content:"";display:block;width:0;transition:width 1s .5s ease;height:3px;border-radius:2px;margin-top:14px;background:linear-gradient(90deg,var(--vin2),var(--gold))}
+.card{border-top:3px solid var(--vin2)}
+.rv{opacity:0;transform:translateY(36px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.rv.in{opacity:1;transform:none}
+.rvh .w{display:inline-block;opacity:0;transform:translateY(.7em);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1);transition-delay:calc(var(--i)*.07s)}
+.rvh.in .w{opacity:1;transform:none}
+.rvh:after{opacity:0;transition:opacity 1s .5s}.rvh.in:after{opacity:1}
+@media (prefers-reduced-motion:reduce){.rv,.rvh .w,.rvh:after{opacity:1!important;transform:none!important;transition:none!important}}
+.rvt .wd{display:inline-block;white-space:nowrap}
+.rvt .ch{display:inline-block;opacity:0;transform:translateY(.6em);transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.2,1);transition-delay:calc(var(--i)*var(--s,.02s))}
+.rvt.in .ch{opacity:1;transform:none}
+.rvt .ch.fd{transform:none}
+h2.rvt.in:after{width:56px}
+#pb{position:fixed;top:0;left:0;height:3px;width:0;z-index:50;background:linear-gradient(90deg,var(--vin2),var(--gold))}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.chips>span{padding:8px 14px;border-radius:99px;border:1px solid var(--vin2);color:var(--vin2);font-size:12px;font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:28px}
+.stat{text-align:center;padding:20px 8px;border:1px solid var(--ln);border-radius:18px;background:var(--card)}
+.stat b{display:block;font:700 42px/1 'Cormorant Garamond',serif;color:var(--vin2)}
+.stat>span{display:block;margin-top:6px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}
+.card small{color:var(--vin2);font-weight:600;font-size:11px;letter-spacing:.05em;text-transform:uppercase}
+.card .ic{transition:transform .35s}.card:hover .ic{transform:rotate(-10deg) scale(1.12)}
+.steps{display:grid;gap:16px;margin-top:34px}
+.step{padding:24px 26px;background:var(--card);border:1px solid var(--ln);border-left:4px solid var(--vin2);border-radius:6px 20px 20px 6px}
+.step i{display:block;font:italic 700 54px/1 'Cormorant Garamond',serif;color:var(--gold)}
+.step h3{font-size:26px}.step p{color:var(--mut);font-size:14px;margin-top:6px}
+.gal img.rv{clip-path:inset(0 0 100% 0);transform:none;transition:opacity .9s ease,transform 1.3s cubic-bezier(.2,.7,.2,1),clip-path 1.1s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.gal img.rv.in{clip-path:inset(0);transform:none}
+.revs{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 18px;margin-top:30px;scrollbar-width:none}
+.revs::-webkit-scrollbar{display:none}
+.rev{flex:0 0 min(84vw,340px);scroll-snap-align:start;background:var(--card);border:1px solid var(--ln);border-top:3px solid var(--vin2);border-radius:20px;padding:22px;display:flex;flex-direction:column;gap:12px;box-shadow:0 10px 30px -20px #4a0a14}
+.rev q{quotes:none;font-size:14px;flex:1}
+.rev .who{display:flex;gap:10px;align-items:center}
+.rev .av{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:600;flex:none}
+.rev .st{color:var(--gold);letter-spacing:3px;font-size:15px}
+.rev small{display:block;color:var(--mut);font-size:11px}
+.wa:before{content:"";position:absolute;inset:0;border-radius:50%;background:#25d366;z-index:-1;animation:pl 2s infinite}
+@keyframes pl{0%{transform:scale(1);opacity:.5}100%{transform:scale(1.8);opacity:0}}
+@media (min-width:820px){.steps{grid-template-columns:repeat(3,1fr)}.rev{flex-basis:340px}}
+@media (prefers-reduced-motion:reduce){.rvt .ch,.gal img.rv{opacity:1!important;transform:none!important;clip-path:none!important;transition:none!important}.wa:before{animation:none}}
+</style></head><body><div id="pb"></div>
+<svg width="0" height="0" style="position:absolute"><symbol id="t" viewBox="0 0 60 70"><path d="M30 10C23 3 10 5 11 19c1 11 6 15 7 27 1 9 3 18 7 18 4 0 3-13 5-13s1 13 5 13c4 0 6-9 7-18 1-12 6-16 7-27C50 5 37 3 30 10z" fill="#fff" stroke="#7a1424" stroke-width="3"/></symbol>
+<symbol id="w" viewBox="0 0 24 24"><path fill="#fff" d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.2.6-1.300 1.200-1.800 1.200-.5.1-1 .2-3.300-.7a11 11 0 0 1-4.800-4.200c-.4-.5-1.200-1.600-1.200-3s.7-2 1-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 2c.1.200.1.400 0 .5l-.4.600-.4.400c-.1.200-.3.300-.1.600a7 7 0 0 0 3.300 2.800c.3.100.5.100.7-.1l.9-1c.2-.3.400-.2.600-.1l1.900.9c.3.100.5.200.5.300 0 .200 0 .900-.200 1.400z"/></symbol></svg>
+
+<header class="nav"><a href="#hero" class="logo"><svg width="26" height="30"><use href="#t"/></svg>Dr Sorriso</a>
+<nav><a href="#sobre">Clínica</a><a href="#tratamentos">Tratamentos</a><a href="#espaco">Espaço</a><a href="#avaliacoes">Avaliações</a><a href="#local">Localização</a></nav>
+<a class="btn" href="https://wa.me/5511947788055?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener">Agendar</a></header>
+
+<section id="hero"><div class="stage">
+<canvas id="c"></canvas><svg id="ln"></svg><div id="lb"></div>
+<div class="ht" id="ht"><h1>Aqui o seu sorriso está em <em>boas mãos</em></h1><p>Odontologia Especializada · Itapecerica da Serra</p></div>
+<div class="hint" id="hint">Role para abrir<br><span style="opacity:.6">depois arraste para girar</span></div>
+</div></section>
+
+<section class="s" id="sobre"><span class="k">A clínica</span><h2>Cuidado especializado, sorriso com confiança.</h2>
+<p class="sub">Na Dr. Sorriso cada tratamento começa com uma avaliação atenciosa. Implantes, próteses, ortodontia e harmonização funcional em um ambiente acolhedor, com acompanhamento do Dr. Jonnatham H. Almeida (CROSP 121.059).</p>
+<div class="chips"><span>Atendimento humanizado</span><span>Ambiente acolhedor</span><span>Planejamento com radiografias</span><span>Explicações claras</span></div><div class="stats"><div class="stat"><b data-n="4.9" data-d="1">0</b><span>nota no Google</span></div><div class="stat"><b data-n="55">0</b><span>avaliações</span></div><div class="stat"><b data-n="4">0</b><span>especialidades</span></div></div></section>
+
+<section class="s" id="tratamentos" style="padding-top:0"><span class="k">Tratamentos</span><h2>Do funcional ao estético.</h2>
+<div class="grid">
+<div class="card"><div class="ic">🦷</div><h3>Implantes</h3><p>Reposição de dentes com planejamento por radiografia e acompanhamento completo do início à prótese.</p><small>Radiografia · Prótese sobre implante</small><a target="_blank" rel="noopener" href="https://wa.me/5511947788055?text=Ol%C3%A1!%20Gostaria%20de%20avaliar%20implantes.">Agendar avaliação →</a></div>
+<div class="card"><div class="ic">✦</div><h3>Próteses</h3><p>Próteses fixas e sobre implante, pensadas para devolver liberdade ao mastigar e ao sorrir.</p><small>Fixas · Sobre implante</small><a target="_blank" rel="noopener" href="https://wa.me/5511947788055?text=Ol%C3%A1!%20Gostaria%20de%20avaliar%20pr%C3%B3teses.">Agendar avaliação →</a></div>
+<div class="card"><div class="ic">✧</div><h3>Botox</h3><p>Aplicações funcionais, como bruxismo e cefaleia tensional, e aplicações estéticas.</p><small>Bruxismo · Cefaleia tensional · Estética</small><a target="_blank" rel="noopener" href="https://wa.me/5511947788055?text=Ol%C3%A1!%20Gostaria%20de%20saber%20sobre%20botox.">Agendar avaliação →</a></div>
+<div class="card"><div class="ic">◌</div><h3>Ortodontia</h3><p>Alinhamento dos dentes e correção da mordida, com plano individual para cada paciente.</p><small>Alinhamento · Mordida</small><a target="_blank" rel="noopener" href="https://wa.me/5511947788055?text=Ol%C3%A1!%20Gostaria%20de%20avaliar%20ortodontia.">Agendar avaliação →</a></div>
+</div></section>
+
+<section class="s" id="passos" style="padding-top:0"><span class="k">Como funciona</span><h2>Do primeiro contato ao sorriso.</h2><div class="steps"><div class="step"><i>01</i><h3>Avaliação</h3><p>Conversa atenciosa e exame clínico para entender o que você precisa.</p></div><div class="step"><i>02</i><h3>Planejamento</h3><p>Plano explicado com clareza, com apoio de radiografias quando necessário.</p></div><div class="step"><i>03</i><h3>Tratamento</h3><p>Acompanhamento próximo em cada etapa, até o resultado final.</p></div></div></section>
+
+<section class="s" id="espaco" style="padding-top:0"><span class="k">Nosso espaço</span><h2>Um ambiente feito para acolher.</h2>
+<div class="gal"><img alt="Consultório Dr. Sorriso" src="images/consultorio.jpg"><img alt="Recepção da clínica" src="images/recepcao.jpg"><img alt="Dr. Jonnatham com paciente" src="images/paciente-1.jpg"><img alt="Dr. Jonnatham com paciente" src="images/paciente-2.jpg"><img alt="Palestra educativa" src="images/palestra.jpg"></div></section>
+
+<section class="s" id="avaliacoes" style="padding-top:0"><span class="k">Avaliações</span><h2>Quem passa por aqui, recomenda.</h2><p class="sub">Avaliações reais de pacientes no Google, onde a clínica tem nota 4,9.</p><div class="revs" id="revs"></div><div class="cta" style="margin-top:6px"><a class="btn o" target="_blank" rel="noopener" href="https://www.google.com/search?q=avalia%C3%A7%C3%B5es+dr+sorriso+itapecerica+da+serra">Ver todas no Google</a></div></section>
+
+<section class="s" id="local" style="padding-top:0"><span class="k">Localização</span><h2>Venha nos visitar.</h2>
+<div class="loc"><div class="map"><div><svg width="34" height="40"><use href="#t"/></svg><p>Av. Máximino Augusto de Carvalho, 283<br>Parque Paraíso, Itapecerica da Serra</p></div>
+<iframe title="Mapa" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Av.%20M%C3%A1ximino%20Augusto%20de%20Carvalho%2C%20283%2C%20Itapecerica%20da%20Serra&output=embed"></iframe></div>
+<div class="info"><h3>Dr. Sorriso</h3>
+<div class="r">📍<span><b>Av. Máximino Augusto de Carvalho, 283</b><br>Parque Paraíso, Itapecerica da Serra – SP, 06852-300</span></div>
+<div class="r">🕘<span>Terça-feira: a partir das 9h<br>Confirme os demais horários pelo WhatsApp</span></div>
+<div class="r">📞<span><a href="tel:+551146666611">(11) 4666-6611</a><br><a href="tel:+5511947788055">(11) 94778-8055</a></span></div>
+<div class="cta"><a class="btn" target="_blank" rel="noopener" href="https://wa.me/5511947788055?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.">WhatsApp</a><a class="btn o" target="_blank" rel="noopener" href="https://instagram.com/drsorriso.oficial">Instagram</a><a class="btn o" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Av.%20M%C3%A1ximino%20Augusto%20de%20Carvalho%2C%20283%2C%20Itapecerica%20da%20Serra">Como chegar</a></div></div></div></section>
+
+<footer><div class="logo"><svg width="26" height="30"><use href="#t"/></svg>Dr Sorriso</div>Odontologia Especializada · Itapecerica da Serra – SP<br>Responsável técnico: Jonnatham H. Almeida · CROSP 121.059<br>@drsorriso.oficial</footer>
+<a class="wa" aria-label="WhatsApp" target="_blank" rel="noopener" href="https://wa.me/5511947788055?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o."><svg width="32" height="32"><use href="#w"/></svg></a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function(){
+const T=window.THREE,cv=document.getElementById('c'),hero=document.getElementById('hero');
+if(!T){document.getElementById('hint').style.display='none';return}
+let R;try{R=new T.WebGLRenderer({canvas:cv,antialias:true,alpha:true})}catch(e){return}
+R.setPixelRatio(Math.min(devicePixelRatio,2));
+const S=new T.Scene(),C=new T.PerspectiveCamera(35,1,.1,100);
+S.add(new T.HemisphereLight(0xffffff,0x6a1428,.95));
+const dl=new T.DirectionalLight(0xffffff,.9);dl.position.set(3,6,9);S.add(dl);
+const root=new T.Group();S.add(root);
+const M=(c,r)=>new T.MeshStandardMaterial({color:c,roughness:r});
+const gumM=M(0xe88aa0,.6),boneM=M(0xf1e3c8,.85),dentM=M(0xe9cf9a,.6),enM=M(0xffffff,.22),pulM=M(0xd8283c,.5);
+const N=14,A=2.5,B=3;
+const P=i=>{const t=(i/(N-1)-.5)*2.5;return{x:A*Math.sin(t),z:B*Math.cos(t)-1.8,t}};
+const curve=new T.CatmullRomCurve3(Array.from({length:28},(_,i)=>{const p=P(i*(N-1)/27);return new T.Vector3(p.x,0,p.z)}));
+const L=[],mk=(y,o,k)=>{const g=new T.Group();root.add(g);const l={g,y,o,k};L.push(l);return l};
+const defs=[[1.5,3.2],[1.9,2],[1.75,.8],[.6,.25],[-.6,-.25],[-1.75,-.8],[-1.9,-2],[-1.5,-3.2]].map(a=>mk(a[0],a[1]));
+const ring=(l,r,m,sy)=>{const me=new T.Mesh(new T.TubeGeometry(curve,60,r,14),m);me.position.y=l.y;me.scale.y=sy;l.g.add(me)};
+ring(defs[0],.78,gumM,.75);ring(defs[7],.78,gumM,.75);ring(defs[1],.46,boneM,1);ring(defs[6],.46,boneM,1);
+for(let i=0;i<N;i++){const p=P(i),w=.46+.1*Math.abs(p.t),yaw=Math.atan2(B*Math.sin(p.t),A*Math.cos(p.t));
+for(const u of[1,-1]){
+const ci=u>0?3:4,ri=u>0?2:5,rr=w*.36;
+const c=new T.Mesh(new T.SphereGeometry(1,16,12),enM);c.scale.set(w/2,.57,.42);c.position.set(p.x,u*.62,p.z);c.rotation.y=yaw;defs[ci].g.add(c);
+const r=new T.Mesh(new T.ConeGeometry(rr,1.3,10),dentM);r.position.set(p.x,u*1.75,p.z);r.rotation.y=yaw;if(u<0)r.rotation.z=Math.PI;defs[ri].g.add(r);
+const q=new T.Mesh(new T.ConeGeometry(.07,.9,8),pulM);q.position.set(0,0,rr*.45);const gq=new T.Group();gq.add(q);gq.position.set(p.x,u*1.7,p.z);gq.rotation.y=yaw;if(u<0)gq.rotation.z=Math.PI;defs[ri].g.add(gq);}}
+const labs=[['Gengiva superior (tecido mole)',0,0],['Osso da maxila',1,0],['Raiz do dente (dentina)',2,-14],['Polpa dentária',2,16],['Esmalte dentário',3,0],['Esmalte dentário',4,0],['Raiz do dente (dentina)',5,0],['Osso da mandíbula',6,0],['Gengiva inferior (tecido mole)',7,0]];
+const lb=document.getElementById('lb'),ln=document.getElementById('ln'),NS='http://www.w3.org/2000/svg';
+labs.forEach(a=>{const d=document.createElement('div');d.className='lb';d.textContent=a[0];lb.appendChild(d);a.push(d);const l=document.createElementNS(NS,'line');ln.appendChild(l);a.push(l)});
+let p=0,tp=0,rx=.12,ry=0,zm=1,tz=1,W=1,Hh=1;
+const cl=(v,a,b)=>Math.min(b,Math.max(a,v));
+function rs(){W=innerWidth;Hh=innerHeight;R.setSize(W,Hh,false);C.aspect=W/Hh;C.updateProjectionMatrix()}
+function sc(){const h=hero.offsetHeight-innerHeight;tp=cl(-hero.getBoundingClientRect().top/h,0,1)}
+addEventListener('resize',rs);addEventListener('scroll',sc,{passive:true});rs();sc();
+const ptr=new Map(),dist=(a,b)=>Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY);
+cv.addEventListener('pointerdown',e=>{try{cv.setPointerCapture(e.pointerId)}catch(_){}ptr.set(e.pointerId,e);cv.style.cursor='grabbing'});
+cv.addEventListener('pointermove',e=>{const o=ptr.get(e.pointerId);if(!o)return;
+if(ptr.size==2){const v=[...ptr.values()],od=dist(v[0],v[1]);ptr.set(e.pointerId,e);const w=[...ptr.values()];tz=cl(tz*dist(w[0],w[1])/od,.6,1.9);return}
+ry+=(e.clientX-o.clientX)*.012;if(e.pointerType=='mouse')rx=cl(rx+(e.clientY-o.clientY)*.006,-.6,.9);ptr.set(e.pointerId,e)});
+['pointerup','pointercancel'].forEach(n=>cv.addEventListener(n,e=>{ptr.delete(e.pointerId);cv.style.cursor='grab'}));
+cv.addEventListener('wheel',e=>{if(e.ctrlKey){e.preventDefault();tz=cl(tz*(e.deltaY<0?1.06:.94),.6,1.9)}},{passive:false});
+const v3=new T.Vector3(),ht=document.getElementById('ht'),hint=document.getElementById('hint');
+function loop(t){requestAnimationFrame(loop);
+if(hero.getBoundingClientRect().bottom<-50)return;
+p+=(tp-p)*.12;zm+=(tz-zm)*.15;const e=p*p*(3-2*p);
+L.forEach(l=>l.g.position.y=l.o*e);
+root.rotation.set(rx+e*.05,ry+Math.sin(t/1400)*.22*(1-e),0);
+const asp=W/Hh;C.position.set(0,.3*e,Math.max(15+e*5,7.6/(.631*asp)*(1+e*.25))/zm);C.lookAt(0,0,0);
+root.position.x=asp<1?-.35*e:0;
+const le=cl((e-.72)/.28,0,1);
+labs.forEach(a=>{const l=L[a[1]];v3.set(2.2,l.y+l.o*e,-.5);root.localToWorld(v3);v3.project(C);
+const px=(v3.x+1)/2*W,py=(1-v3.y)/2*Hh;a[3].style.top=(py+a[2])+'px';a[3].style.opacity=le;
+const bw=a[3].offsetWidth+8,ln1=a[4];ln1.setAttribute('x1',px);ln1.setAttribute('y1',py);ln1.setAttribute('x2',W-bw);ln1.setAttribute('y2',py+a[2]);ln1.style.opacity=le});
+ht.style.opacity=1-e*2.2;hint.style.opacity=1-e*3;
+R.render(S,C)}
+requestAnimationFrame(loop);
+})();
+</script><script>
+(function(){
+const q=s=>[...document.querySelectorAll(s)];
+const R=[["Antonio Daniel", "A", "#2f8f6f", "O Dr. Jonathan além de ser um dos melhores dentistas do Brasil tem um carisma e uma simplicidade que fazem toda diferença."], ["Juliana Coutinho", "J", "#e2582f", "Fiz um implante e deu tudo certo. O procedimento foi tranquilo, sem intercorrências.", "Local Guide"], ["Rodrigo Cavaguti", "R", "#5b5bc4", "Quero agradecer ao meu amigo pelo excelente atendimento no consultório. Fiz uma limpeza dentária e a experiência foi muito boa. Profissional dedicado, atencioso e muito cuidadoso no atendimento. Dá pra ver o carinho e a responsabilidade com cada paciente. Recomendo demais!"], ["Bruna Razé", "B", "#2f6f1f", "Ótimo profissional! Atendimento humanizado, muito atencioso e cuidadoso. Ambiente agradável. Super recomendo!"], ["Alessandra Leite", "A", "#2a3a6a", "Atendimento rápido e acolhedor! Profissionais capacitados e preço justo! Jonathan é um dentista muito competente. Recomendo a todos!"], ["Léo Mesquita", "L", "#7a1424", "Atendimento excelente, profissionais atenciosos, resultado do tratamento me deixou muito satisfeito. Com toda certeza virei paciente. Obrigado!"], ["Fernando Anunciação", "F", "#6b4a2e", "Ótimo atendimento. Doutor Jonnathan muito atencioso e prestativo. Recomendo demais a todos."], ["Eloiza Beliza", "E", "#0b5cab", "Ótimo atendimento. Dentista super atencioso tirou todas as minhas dúvidas."]];
+document.getElementById('revs').innerHTML=R.map(r=>'<div class="rev"><div class="who"><div class="av" style="background:'+r[2]+'">'+r[1]+'</div><div><b>'+r[0]+'</b><small>'+(r[4]||'Avaliação no Google')+'</small></div></div><div class="st">★★★★★</div><q>'+r[3]+'</q></div>').join('');
+const sp=el=>{let i=0;const tn=[],w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);let n;while(n=w.nextNode())if(n.textContent.trim())tn.push(n);
+const tot=tn.reduce((a,n)=>a+n.textContent.replace(/\s/g,'').length,0);el.style.setProperty('--s',Math.min(.035,1.3/Math.max(tot,1))+'s');
+tn.forEach(n=>{const f=document.createDocumentFragment();n.textContent.split(/(\s+)/).forEach(p=>{if(!p)return;if(/^\s+$/.test(p)){f.appendChild(document.createTextNode(' '));return}const wd=document.createElement('span');wd.className='wd';[...p].forEach(c=>{const s=document.createElement('span');const k=i++;s.className='ch'+(k%2?' fd':'');s.style.setProperty('--i',k);s.textContent=c;wd.appendChild(s)});f.appendChild(wd)});n.replaceWith(f)});el.classList.add('rvt')};
+q('h1,h2,h3,.k,.sub,.ht p,.card p,.card a,.card small,.info .r span,.step p,.stat span,.chips span,.rev q,.rev b,.rev small,.btn,.nav nav a,.map p,footer').forEach(sp);
+q('.card,.gal img,.info,.map,.step,.rev,.stat,.chips span,footer').forEach(e=>{e.classList.add('rv');const sib=[...e.parentNode.children].filter(c=>c.classList.contains('rv'));e.style.setProperty('--d',Math.max(0,sib.indexOf(e))*.1+'s')});
+const all=q('.rv,.rvt');
+const cnt=b=>{const n=parseFloat(b.dataset.n),d=+b.dataset.d||0,t0=performance.now();(function s(t){const k=Math.min(1,(t-t0)/1400),e=1-Math.pow(1-k,3);b.textContent=(n*e).toFixed(d).replace('.',',');if(k<1)requestAnimationFrame(s)})(t0)};
+if(!('IntersectionObserver' in window)){all.forEach(e=>e.classList.add('in'));q('.stat b').forEach(b=>b.textContent=b.dataset.n.replace('.',','))}
+else{const io=new IntersectionObserver(es=>es.forEach(x=>{if(!x.isIntersecting)return;const t=x.target;t.classList.add('in');io.unobserve(t);if(t.classList.contains('stat'))cnt(t.querySelector('b'))}),{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+all.forEach(e=>e.closest('.ht,.nav')?setTimeout(()=>e.classList.add('in'),300):io.observe(e))}
+const pb=document.getElementById('pb');addEventListener('scroll',()=>{pb.style.width=scrollY/Math.max(1,document.documentElement.scrollHeight-innerHeight)*100+'%'},{passive:true});
+const rv=document.getElementById('revs');let hold=0;['touchstart','pointerdown','wheel'].forEach(n=>rv.addEventListener(n,()=>hold=Date.now()+9000,{passive:true}));
+setInterval(()=>{if(Date.now()<hold)return;const r=rv.getBoundingClientRect();if(r.bottom<0||r.top>innerHeight)return;const c=rv.children[0].offsetWidth+14,end=rv.scrollWidth-rv.clientWidth-4;rv.scrollTo({left:rv.scrollLeft+c>end?0:rv.scrollLeft+c,behavior:'smooth'})},4500);
+})();
+</script></body></html>
